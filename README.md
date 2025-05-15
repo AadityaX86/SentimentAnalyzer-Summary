@@ -19,6 +19,9 @@ A simple, containerized **FastAPI** microservice that analyzes the sentiment of 
 
 ```bash
 SentimentAnalyzer/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── app/
 │   ├── api/
 │   │   └── v1/
@@ -28,14 +31,14 @@ SentimentAnalyzer/
 │   ├── main.py
 ├── tests/
 │   └── test_sentiment.py
-├── Dockerfile
+|── venv/
 ├── .env
+├── .gitignore
 ├── .pre-commit-config.yaml
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-├── requirements.txt
+├── Dockerfile
+├── pytest.ini
 ├── README.md
+├── requirements.txt
 ```
 
 ## Installation & Running
