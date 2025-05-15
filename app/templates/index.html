@@ -20,6 +20,13 @@
             <p><strong>Polarity:</strong> {{ polarity }}</p>
         </div>
         {% endif %}
+
+        {% if summary %}
+        <div class="result">
+            <p><strong>Summary:</strong></p>
+            <p>{{ summary }}</p>
+        </div>
+        {% endif %}
     </div>
 </body>
 </html>
