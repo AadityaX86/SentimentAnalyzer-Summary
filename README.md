@@ -28,6 +28,10 @@ SentimentAnalyzer/
 │   │       └── routes.py
 │   ├── core/
 │   │   └── config.py
+│   │── static/
+│   │   └── style.css
+│   │── templates/
+│   │   └── index.html
 │   ├── main.py
 ├── tests/
 │   └── test_sentiment.py
