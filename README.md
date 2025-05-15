@@ -1,12 +1,13 @@
-# Sentiment Analyzer API
+# Sentiment Analyzer & Summary
 
-A simple, containerized **FastAPI** microservice that analyzes the sentiment of input text using `TextBlob`. Built with clean code, modern dev practices, and structured according to the **12-Factor App** principles.
+A simple, containerized **FastAPI** microservice that analyzes the sentiment of input text using `TextBlob` and summarizes it using `sumy`. Built with clean code, modern dev practices, and structured according to the **12-Factor App** principles.
 
 ---
 
 ## Features
 
 - Sentiment detection: Positive / Negative / Neutral
+- Summary Generation
 - Includes automated test with `pytest`
 - Dockerized for consistent deployment
 - Environment-based configuration using `pydantic.BaseSettings`
@@ -18,7 +19,7 @@ A simple, containerized **FastAPI** microservice that analyzes the sentiment of 
 ##  Project Structure
 
 ```bash
-SentimentAnalyzer/
+SentimentAnalyzer-Summary/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
